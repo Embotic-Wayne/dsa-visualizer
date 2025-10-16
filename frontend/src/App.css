@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #0b1020;
+  color: #e5e7eb;
+}
+.App {
+  max-width: 900px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+h1 {
+  font-size: 20px;
+  margin: 12px 0 16px;
+}
+
+.board {
+  height: 260px;
+  background: #121934;
+  border-radius: 12px;
+  padding: 10px 6px;
+  display: flex;
+  align-items: flex-end;
+  gap: 6px;
+}
+
+.bar {
+  flex: 1;
+  background: #6366f1;
+  border-radius: 6px 6px 0 0;
+}
+
+.bar.active {
+  background: #ef4444;
+  transition: background 0.15s;
+}
+
+.bar.sorted {
+  background: #10b981;
+}
