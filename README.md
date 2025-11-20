@@ -22,7 +22,8 @@ Interactive sorting visualizer with a **React** frontend and a **Spring Boot** b
 cd backend
 .\mvnw.cmd spring-boot:run
 
-💻 Frontend (Port 3000)
+###💻 Frontend (Port 3000)
+
 cd frontend
 npm install
 npm start
